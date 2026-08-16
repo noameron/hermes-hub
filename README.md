@@ -112,6 +112,16 @@ npm run lint
 npm run build
 ```
 
+## CI
+
+GitHub Actions runs on pushes and pull requests to `main` and covers:
+
+- `npm test`
+- `npm run typecheck`
+- `npm run lint`
+- `npm run build`
+- `npm audit --omit=dev --audit-level=high`
+
 ## Current routes
 
 - `/`
