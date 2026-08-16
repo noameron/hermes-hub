@@ -1,0 +1,11 @@
+.next
+node_modules
+data
+coverage
+dist
+*.log
+*.tsbuildinfo
+.DS_Store
+
+!.Codex/
+.Codex/session-state.md

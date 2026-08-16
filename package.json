@@ -1,0 +1,28 @@
+{
+  "name": "hermes-hub",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/**/*.test.ts tests/**/*.test.tsx",
+    "db:seed": "node scripts/seed.mjs"
+  },
+  "dependencies": {
+    "next": "16.2.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "24.4.0",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "eslint": "9.35.0",
+    "eslint-config-next": "16.2.10",
+    "tsx": "4.20.5",
+    "typescript": "5.9.2"
+  }
+}
